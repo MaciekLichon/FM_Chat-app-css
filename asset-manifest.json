@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/M_Chat-app-css/static/css/main.8b30a3b7.css",
-    "main.js": "/M_Chat-app-css/static/js/main.514ded77.js",
-    "static/media/avatar.jpg": "/M_Chat-app-css/static/media/avatar.973be51eef36874a91a0.jpg",
-    "index.html": "/M_Chat-app-css/index.html",
-    "static/media/arrow-left.svg": "/M_Chat-app-css/static/media/arrow-left.106c6e859ce266c8e54b4d4d9e0b584e.svg",
-    "static/media/arrow-right.svg": "/M_Chat-app-css/static/media/arrow-right.c786143dd9d61c3e2f06437139936fec.svg",
-    "static/media/dots.svg": "/M_Chat-app-css/static/media/dots.c0753c813a607380cd8cdaf301b927a5.svg",
-    "main.8b30a3b7.css.map": "/M_Chat-app-css/static/css/main.8b30a3b7.css.map",
-    "main.514ded77.js.map": "/M_Chat-app-css/static/js/main.514ded77.js.map"
+    "main.css": "/FM_Chat-app-css/static/css/main.8b30a3b7.css",
+    "main.js": "/FM_Chat-app-css/static/js/main.360d7799.js",
+    "static/media/avatar.jpg": "/FM_Chat-app-css/static/media/avatar.973be51eef36874a91a0.jpg",
+    "index.html": "/FM_Chat-app-css/index.html",
+    "static/media/arrow-left.svg": "/FM_Chat-app-css/static/media/arrow-left.106c6e859ce266c8e54b4d4d9e0b584e.svg",
+    "static/media/arrow-right.svg": "/FM_Chat-app-css/static/media/arrow-right.c786143dd9d61c3e2f06437139936fec.svg",
+    "static/media/dots.svg": "/FM_Chat-app-css/static/media/dots.c0753c813a607380cd8cdaf301b927a5.svg",
+    "main.8b30a3b7.css.map": "/FM_Chat-app-css/static/css/main.8b30a3b7.css.map",
+    "main.360d7799.js.map": "/FM_Chat-app-css/static/js/main.360d7799.js.map"
   },
   "entrypoints": [
     "static/css/main.8b30a3b7.css",
-    "static/js/main.514ded77.js"
+    "static/js/main.360d7799.js"
   ]
 }
