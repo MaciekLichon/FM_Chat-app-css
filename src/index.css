@@ -1,13 +1,36 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@layer base {
+    body {
+        @apply bg-background font-regular font-rubik;
+    }
+
+    main {
+        @apply
+        min-h-screen relative overflow-hidden max-w-[1536px] mx-auto
+        after:content-[''] after:absolute after:z-0 after:top-0 after:-left-48 after:h-[509px] after:w-96 after:rounded-br-[192px] after:rounded-bl-[192px] after:bg-gradient_brand
+        before:content-[''] before:absolute before:z-0 before:bottom-0 before:-right-48 before:h-[509px] before:w-96 before:rounded-tr-[192px] before:rounded-tl-[192px] before:opacity-[0.03] before:bg-gradient_brand
+        md:flex md:justify-center md:items-center
+        xl:after:h-[700px] xl:after:w-[510px] xl:after:rounded-br-[255px] xl:after:rounded-bl-[255px] xl:after:-left-[90px]
+        xl:before:h-[700px] xl:before:w-[510px] xl:before:rounded-tr-[255px] xl:before:rounded-tl-[255px] xl:before:-right-[90px]
+        2xl:overflow-visible 2xl:after:left-0 2xl:before:right-0;
+    }
+
+    h1 {
+        @apply font-medium text-header;
+    }
+
+    div[data-origin="to"] + div[data-origin="from"], div[data-origin="from"] + div[data-origin="to"] {
+        @apply mt-2;
+    }
+
+    input[type="radio"] {
+        @apply appearance-none w-3 h-3 bg-transparent outline outline-1 outline-[#E472FF] rounded-full checked:bg-white checked:border-2 checked:border-solid checked:border-chat-200;
+    }
+
+    div::-webkit-scrollbar {
+        width: 0;
+    }
 }
